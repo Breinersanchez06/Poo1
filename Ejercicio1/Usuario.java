@@ -1,4 +1,3 @@
-package Semana1.script;
 
 public class Usuario {
     private String nombre;
@@ -10,9 +9,11 @@ public class Usuario {
         this.id = id;
         this.password = password;
     }
+
     public String getNombre() {
         return nombre;
     }
+
     public void leerNota() {
         System.out.println("Leyendo nota...");
     }

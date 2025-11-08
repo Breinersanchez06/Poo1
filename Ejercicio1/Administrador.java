@@ -1,4 +1,4 @@
-package Semana1.script;
+
 
 public class Administrador extends Usuario {
 

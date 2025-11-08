@@ -1,5 +1,3 @@
-package Semana1.script;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
@@ -10,6 +8,17 @@ public class Main {
         Administrador admin = new Administrador("Admin", 1, "adminpass");
         admin.logear();
         admin.crearNota();
+
+        Estudiante alumno = new Estudiante("Stiven",10,"1234","grupo");
+        alumno.logear();
+        alumno.leerNota();
+        
+        Profesor docente = new Profesor("nombre",12,"4321","ingles","grupo");
+        docente.logear();
+        docente.administrar_notas();
+        
+
+
     }
     
 }
